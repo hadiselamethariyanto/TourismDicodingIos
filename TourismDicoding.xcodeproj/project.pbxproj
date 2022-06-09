@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F0CE918285080EE00A1AECD /* TourismManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0CE917285080EE00A1AECD /* TourismManager.swift */; };
+		2F0CE91A28508E8200A1AECD /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0CE91928508E8200A1AECD /* DetailViewController.swift */; };
+		2F0CE91C2850A69000A1AECD /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0CE91B2850A69000A1AECD /* ProfileViewController.swift */; };
 		2FD3EBA3285049E800ED995B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD3EBA2285049E800ED995B /* AppDelegate.swift */; };
 		2FD3EBA5285049E800ED995B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD3EBA4285049E800ED995B /* SceneDelegate.swift */; };
 		2FD3EBA7285049E800ED995B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD3EBA6285049E800ED995B /* ViewController.swift */; };
 		2FD3EBAA285049E800ED995B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FD3EBA8285049E800ED995B /* Main.storyboard */; };
 		2FD3EBAC285049EA00ED995B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FD3EBAB285049EA00ED995B /* Assets.xcassets */; };
 		2FD3EBAF285049EA00ED995B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FD3EBAD285049EA00ED995B /* LaunchScreen.storyboard */; };
+		2FD3EBB728504B1A00ED995B /* TourismModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD3EBB628504B1A00ED995B /* TourismModel.swift */; };
+		2FD3EBBA28504CAE00ED995B /* TourismTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD3EBB828504CAE00ED995B /* TourismTableViewCell.swift */; };
+		2FD3EBBB28504CAE00ED995B /* TourismTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FD3EBB928504CAE00ED995B /* TourismTableViewCell.xib */; };
+		2FEFB72B285155A70053BDFD /* TourismMapModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEFB72A285155A70053BDFD /* TourismMapModel.swift */; };
+		77943355B0ADCAB8D02DD156 /* Pods_TourismDicoding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC8E57246D322A3FD46EE36 /* Pods_TourismDicoding.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		20D1B01B367709D6569E06B8 /* Pods-TourismDicoding.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TourismDicoding.debug.xcconfig"; path = "Target Support Files/Pods-TourismDicoding/Pods-TourismDicoding.debug.xcconfig"; sourceTree = "<group>"; };
+		2F0CE917285080EE00A1AECD /* TourismManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourismManager.swift; sourceTree = "<group>"; };
+		2F0CE91928508E8200A1AECD /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		2F0CE91B2850A69000A1AECD /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		2FD3EB9F285049E800ED995B /* TourismDicoding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TourismDicoding.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FD3EBA2285049E800ED995B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2FD3EBA4285049E800ED995B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +36,12 @@
 		2FD3EBAB285049EA00ED995B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FD3EBAE285049EA00ED995B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2FD3EBB0285049EA00ED995B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FD3EBB628504B1A00ED995B /* TourismModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourismModel.swift; sourceTree = "<group>"; };
+		2FD3EBB828504CAE00ED995B /* TourismTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourismTableViewCell.swift; sourceTree = "<group>"; };
+		2FD3EBB928504CAE00ED995B /* TourismTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TourismTableViewCell.xib; sourceTree = "<group>"; };
+		2FEFB72A285155A70053BDFD /* TourismMapModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourismMapModel.swift; sourceTree = "<group>"; };
+		3FC8E57246D322A3FD46EE36 /* Pods_TourismDicoding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TourismDicoding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		806E509C92459D13B0980B2B /* Pods-TourismDicoding.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TourismDicoding.release.xcconfig"; path = "Target Support Files/Pods-TourismDicoding/Pods-TourismDicoding.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77943355B0ADCAB8D02DD156 /* Pods_TourismDicoding.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +61,8 @@
 			children = (
 				2FD3EBA1285049E800ED995B /* TourismDicoding */,
 				2FD3EBA0285049E800ED995B /* Products */,
+				60415F93F38FF9B95565A391 /* Pods */,
+				811C9704B9794560E9260930 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +84,33 @@
 				2FD3EBAB285049EA00ED995B /* Assets.xcassets */,
 				2FD3EBAD285049EA00ED995B /* LaunchScreen.storyboard */,
 				2FD3EBB0285049EA00ED995B /* Info.plist */,
+				2FD3EBB628504B1A00ED995B /* TourismModel.swift */,
+				2FD3EBB828504CAE00ED995B /* TourismTableViewCell.swift */,
+				2FD3EBB928504CAE00ED995B /* TourismTableViewCell.xib */,
+				2F0CE917285080EE00A1AECD /* TourismManager.swift */,
+				2F0CE91928508E8200A1AECD /* DetailViewController.swift */,
+				2F0CE91B2850A69000A1AECD /* ProfileViewController.swift */,
+				2FEFB72A285155A70053BDFD /* TourismMapModel.swift */,
 			);
 			path = TourismDicoding;
+			sourceTree = "<group>";
+		};
+		60415F93F38FF9B95565A391 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20D1B01B367709D6569E06B8 /* Pods-TourismDicoding.debug.xcconfig */,
+				806E509C92459D13B0980B2B /* Pods-TourismDicoding.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		811C9704B9794560E9260930 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FC8E57246D322A3FD46EE36 /* Pods_TourismDicoding.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +120,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2FD3EBB3285049EA00ED995B /* Build configuration list for PBXNativeTarget "TourismDicoding" */;
 			buildPhases = (
+				43F3CED10322CF3D18E24C69 /* [CP] Check Pods Manifest.lock */,
 				2FD3EB9B285049E800ED995B /* Sources */,
 				2FD3EB9C285049E800ED995B /* Frameworks */,
 				2FD3EB9D285049E800ED995B /* Resources */,
+				165F59192AD9699E18907F67 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,10 +176,53 @@
 				2FD3EBAF285049EA00ED995B /* LaunchScreen.storyboard in Resources */,
 				2FD3EBAC285049EA00ED995B /* Assets.xcassets in Resources */,
 				2FD3EBAA285049E800ED995B /* Main.storyboard in Resources */,
+				2FD3EBBB28504CAE00ED995B /* TourismTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		165F59192AD9699E18907F67 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TourismDicoding/Pods-TourismDicoding-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TourismDicoding/Pods-TourismDicoding-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TourismDicoding/Pods-TourismDicoding-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43F3CED10322CF3D18E24C69 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TourismDicoding-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2FD3EB9B285049E800ED995B /* Sources */ = {
@@ -139,8 +230,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FD3EBA7285049E800ED995B /* ViewController.swift in Sources */,
+				2FD3EBBA28504CAE00ED995B /* TourismTableViewCell.swift in Sources */,
+				2FD3EBB728504B1A00ED995B /* TourismModel.swift in Sources */,
+				2F0CE918285080EE00A1AECD /* TourismManager.swift in Sources */,
 				2FD3EBA3285049E800ED995B /* AppDelegate.swift in Sources */,
 				2FD3EBA5285049E800ED995B /* SceneDelegate.swift in Sources */,
+				2F0CE91C2850A69000A1AECD /* ProfileViewController.swift in Sources */,
+				2FEFB72B285155A70053BDFD /* TourismMapModel.swift in Sources */,
+				2F0CE91A28508E8200A1AECD /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,11 +379,13 @@
 		};
 		2FD3EBB4285049EA00ED995B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20D1B01B367709D6569E06B8 /* Pods-TourismDicoding.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F88RH9K3RH;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TourismDicoding/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -309,11 +408,13 @@
 		};
 		2FD3EBB5285049EA00ED995B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 806E509C92459D13B0980B2B /* Pods-TourismDicoding.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F88RH9K3RH;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TourismDicoding/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
